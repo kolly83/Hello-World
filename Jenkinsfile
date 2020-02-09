@@ -5,7 +5,6 @@ pipeline {
       steps {
         sh """
                   ‘echo “Hello World”’
-                  ls -lha
                  """
       }
     }
